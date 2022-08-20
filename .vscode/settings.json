@@ -1,0 +1,9 @@
+{
+  "[terraform]": {
+    "editor.formatOnSave": true
+  },
+  "terraform.languageServer": {
+    "external": true,
+    "args": ["serve"]
+  }
+}
