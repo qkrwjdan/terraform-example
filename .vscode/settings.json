@@ -1,9 +1,12 @@
 {
   "[terraform]": {
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
   },
-  "terraform.languageServer": {
-    "external": true,
-    "args": ["serve"]
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
   }
 }

@@ -40,3 +40,4 @@ terraform.rc
 # End of https://www.toptal.com/developers/gitignore/api/terraform
 
 set-aws-credential.sh
+terraform-key-pair.pem
